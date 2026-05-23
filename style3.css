@@ -1,0 +1,15 @@
+/*hashfi hawali ramadhan_202432071*/
+body { background-color: #f0f2f5; font-family: 'Verdana', sans-serif; margin: 0; }
+header { background: #476EAE; color: white; padding: 30px 20px; text-align: center; }
+h1 { margin-top: 0; font-size: 28px; margin-bottom: 20px; }
+nav { display: flex; justify-content: center; gap: 20px; }
+nav a { color: #c4d4eb; text-decoration: none; font-size: 14px; }
+nav a.active { color: white; font-weight: bold; text-decoration: underline; text-underline-offset: 5px; }
+main { display: flex; justify-content: center; padding: 40px 20px; }
+.reg-form { background: white; padding: 30px; border-radius: 10px; width: 100%; max-width: 600px; border-top: 5px solid #476EAE; box-shadow: 0 4px 10px rgba(0,0,0,0.05); }
+fieldset { border: none; padding: 0; margin: 0; }
+legend { font-size: 1.2em; color: #476EAE; margin-bottom: 25px; font-weight: bold; }
+.form-group { margin-bottom: 20px; font-size: 14px; color: #333; }
+input[type="text"], select, textarea { width: 100%; padding: 10px; margin-top: 8px; border: 1px solid #d1d5db; border-radius: 6px; box-sizing: border-box; font-family: 'Verdana', sans-serif; }
+button { background: #476EAE; color: white; border: none; padding: 12px 20px; border-radius: 6px; cursor: pointer; width: 100%; font-weight: bold; font-size: 14px; margin-top: 10px; }
+button:hover { background: #355384; }

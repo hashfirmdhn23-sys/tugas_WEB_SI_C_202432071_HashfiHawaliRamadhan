@@ -1,0 +1,17 @@
+/*hashfi hawali ramadhan_202432071*/
+body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #ffffff; margin: 0; }
+header { background: #62a3b5; color: white; padding: 2.5rem 1rem; text-align: center; }
+h1 { margin: 0 0 20px 0; font-size: 26px; }
+nav { display: flex; justify-content: center; gap: 10px; }
+nav a { color: white; text-decoration: none; padding: 6px 15px; border: 1px solid transparent; border-radius: 4px; font-size: 14px; }
+nav a.active { background: white; color: #62a3b5; border: 1px solid white; font-weight: bold; }
+nav a:not(.active) { border: 1px solid rgba(255,255,255,0.5); }
+main { padding: 2rem; max-width: 900px; margin: auto; }
+h2 { font-size: 16px; margin-bottom: 20px; color: #333; }
+.styled-table { width: 100%; border-collapse: collapse; font-size: 13px; text-align: center; }
+.styled-table th, .styled-table td { border: 1px solid #b3d1db; padding: 15px; }
+.styled-table thead tr { background-color: #62a3b5; color: white; }
+.styled-table th { font-weight: normal; border: 1px solid #7eb8c7; }
+.styled-table tbody tr { border-bottom: 1px solid #eeeeee; }
+.styled-table tbody tr:nth-of-type(even) { background-color: #fdfdfd; }
+.styled-table td { color: #444; }
